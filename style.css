@@ -1,0 +1,48 @@
+body{
+    background-image: radial-gradient(#ffffff,#d7c3d7,#a1a1a1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    gap:20px;
+   
+
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(74, 68, 252);
+    font-size: 2.8rem;
+    text-decoration: underline;
+
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+#cell1,#cell2,#cell3,#cell4,#cell5,#cell6,#cell7,#cell8,#cell9{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(30, 143, 223, 0.4);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: red;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(214, 71, 71);
+    font-size: 1.5rem;
+}
+#btn{
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px lighter green;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
