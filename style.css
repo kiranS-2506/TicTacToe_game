@@ -1,5 +1,5 @@
 body{
-    background-image: radial-gradient(#ffffff,#d7c3d7,#a1a1a1);
+    background-color: rgba(0,0,0,0.6);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +11,8 @@ body{
 }
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(74, 68, 252);
+    color: rgb(150, 146, 255);
+    font-weight: 200;
     font-size: 2.8rem;
     text-decoration: underline;
 
@@ -25,7 +26,7 @@ h1{
 #cell1,#cell2,#cell3,#cell4,#cell5,#cell6,#cell7,#cell8,#cell9{
     height: 100px;
     width: 100px;
-    background-color: rgba(30, 143, 223, 0.4);
+    background-color:#fff;
     cursor: pointer;
     display: flex;
     align-items: center;

@@ -9,6 +9,7 @@ function cell1(){
         if (player=="O"){
         
             d.innerHTML="O"
+            d.style.color = "red"
             count++;
             checkwin()
             checkdraw()
@@ -17,6 +18,7 @@ function cell1(){
         }
         else{
             d.innerHTML="X"
+            d.style.color = "blue"
             count++;
             checkwin()
             checkdraw()
@@ -35,6 +37,7 @@ function cell2(){
         if (player=="O"){
         
             d.innerHTML="O"
+            d.style.color = "red"
             count++;
             checkwin()
             checkdraw()
@@ -43,6 +46,7 @@ function cell2(){
         }
         else{
             d.innerHTML="X"
+            d.style.color = "blue"
             count++;
             checkwin()
             checkdraw()
@@ -62,6 +66,7 @@ function cell3(){
         if (player=="O"){
         
             d.innerHTML="O"
+            d.style.color = "red"
             count++;
             checkwin()
             checkdraw()
@@ -70,6 +75,7 @@ function cell3(){
         }
         else{
             d.innerHTML="X"
+            d.style.color = "blue"
             count++;
             checkwin()
             checkdraw()
@@ -88,6 +94,7 @@ function cell4(){
         if (player=="O"){
         
             d.innerHTML="O"
+            d.style.color = "red"
             count++;
             checkwin()
             checkdraw()
@@ -96,6 +103,7 @@ function cell4(){
         }
         else{
             d.innerHTML="X"
+            d.style.color = "blue"
             count++;
             checkwin()
             checkdraw()
@@ -113,6 +121,7 @@ function cell5(){
         if (player=="O"){
         
             d.innerHTML="O"
+            d.style.color = "red"
             count++;
             checkwin()
             checkdraw()
@@ -121,6 +130,7 @@ function cell5(){
         }
         else{
             d.innerHTML="X"
+            d.style.color = "blue"
             count++;
             checkwin()
             checkdraw()
@@ -139,6 +149,7 @@ function cell6(){
         if (player=="O"){
         
             d.innerHTML="O"
+            d.style.color = "red"
             count++;
             checkwin()
             checkdraw()
@@ -147,6 +158,7 @@ function cell6(){
         }
         else{
             d.innerHTML="X"
+            d.style.color = "blue"
             count++;
             checkwin()
             checkdraw()
@@ -164,6 +176,7 @@ function cell7(){
         if (player=="O"){
         
             d.innerHTML="O"
+            d.style.color = "red"
             count++;
             checkwin()
             checkdraw()
@@ -172,6 +185,7 @@ function cell7(){
         }
         else{
             d.innerHTML="X"
+            d.style.color = "blue"
             count++;
             checkwin()
             checkdraw()
@@ -190,6 +204,7 @@ function cell8(){
         if (player=="O"){
         
             d.innerHTML="O"
+            d.style.color = "red"
             count++;
             checkwin()
             checkdraw()
@@ -198,6 +213,7 @@ function cell8(){
         }
         else{
             d.innerHTML="X"
+            d.style.color = "blue"
             count++;
             checkwin()
             checkdraw()
@@ -216,6 +232,7 @@ function cell9(){
         if (player=="O"){
         
             d.innerHTML="O"
+            d.style.color = "red"
             count++;
             checkwin()
             checkdraw()
@@ -224,6 +241,7 @@ function cell9(){
         }
         else{
             d.innerHTML="X"
+            d.style.color = "blue"
             count++;
             checkwin()
             checkdraw()
